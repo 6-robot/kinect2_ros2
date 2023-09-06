@@ -8,7 +8,7 @@ from launch_ros.descriptions import ComposableNode
 
 
 parameters=[    {'base_name': 'kinect2',
-                'sensor': '004436460547',
+                'sensor': '',
                 'fps_limit': -1.0,
                 'use_png': False,
                 'jpeg_quality': 90,
@@ -25,7 +25,7 @@ parameters=[    {'base_name': 'kinect2',
                 'worker_threads': 4,
                 'publish_tf': True}]
 
-point_cloud_res='hd' # ['hd','qhd','sd']
+point_cloud_res='sd' # ['hd','qhd','sd']
 
 def generate_launch_description():
     kinect2 = Node(

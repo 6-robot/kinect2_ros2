@@ -32,7 +32,7 @@
 #define K2_TOPIC_SD            "/sd"
 
 #define K2_TOPIC_IMAGE_RECT    "_rect"
-#define K2_TOPIC_IMAGE_COLOR   "/image_color"
+#define K2_TOPIC_IMAGE_COLOR   "/image_raw"
 #define K2_TOPIC_IMAGE_MONO    "/image_mono"
 #define K2_TOPIC_IMAGE_DEPTH   "/image_depth"
 #define K2_TOPIC_IMAGE_IR      "/image_ir"
