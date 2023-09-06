@@ -50,7 +50,7 @@ def generate_launch_description():
                 name='pointcloud',
                 remappings=[
                     ("rgb/camera_info", f"/kinect2/{point_cloud_res}/camera_info"),
-                    ("rgb/image_rect_color", f"/kinect2/{point_cloud_res}/image_color_rect"),
+                    ("rgb/image_rect_color", f"/kinect2/{point_cloud_res}/image_raw_rect"),
                     ("depth_registered/image_rect",f"/kinect2/{point_cloud_res}/image_depth_rect"),
                     ("points",f"/kinect2/{point_cloud_res}/points")]
             ),
